@@ -1,43 +1,60 @@
 body {
-    background-color: #181818;
     margin: 0px;
-    padding: 0px;
+    background-color: #181818;
+    padding: 2%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-nav {
-    position: fixed;
-    background-color: #222222;
+.row {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    flex-direction: row;
 }
-#mobile-user-detected {
-    display: none;
+.box {
+    height: 250px;
+    aspect-ratio: 1.8 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+    font-family: "Ubuntu";
+    border-radius: 7px;
+    border: none;
+    cursor: hover;
+    color: rgb(61, 61, 61);
+    cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
-    html {
-        height: 100vh;
-    }
-    body {
-        background-color: #181818;
-        margin: 0px;
-        padding: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-    }
-    #mobile-user-detected {
-        display: block;
-        color: rgb(255, 83, 83);
-        font-family: "Ubuntu";
-        height: 300px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    nav {
-        display: none;
-    }
-    * {
-        box-sizing: border-box;
-    }
+#codecademy-box {
+    background-color: #fff2e4;
+}
+#codecademy {
+    transition: .2s ease;
+    border-radius: 0px;
+    border: 1px solid #10162f;
+    background: white;
+    color: #10162f;
+    font-weight: normal;
+    box-shadow: 0px 0px 0px #10162f;
+}
+#codecademy:hover {
+    transition: .2s ease;
+    transform: translate(3px, -3px);
+    box-shadow: -6px 6px 0px #10162f;
+}
+
+#hannahyockel-box {
+    background-color: #212121;
+}
+#hannahyockel {
+    background-color: rgba(100,77,237,0.08);
+    color: rgb(125, 106, 230);
 }
