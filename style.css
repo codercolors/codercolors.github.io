@@ -30,6 +30,14 @@ button {
     cursor: pointer;
 }
 
+.toggle-all {
+    margin-left: 10px;
+    border: 1px solid rgb(128, 128, 128);
+    color: rgb(128, 128, 128);
+    background-color: transparent;
+    display: none;
+}
+
 #codecademy-box {
     background-color: #fff2e4;
 }
@@ -64,5 +72,8 @@ button {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .toggle-all {
+        display: block;
     }
 }
