@@ -1,17 +1,10 @@
 body {
-    margin: 0px;
+    min-width: 400px;
     background-color: #181818;
-    padding: 2%;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-.row {
-    display: flex;
-    align-items: center;
-    width: max-content;
-    flex-direction: row;
+    overflow-x: hidden;
 }
 .box {
     height: 250px;
@@ -19,6 +12,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
 }
 button {
     height: 40px;
@@ -57,4 +52,15 @@ button {
 #hannahyockel {
     background-color: rgba(100,77,237,0.08);
     color: rgb(125, 106, 230);
+}
+
+
+@media screen and (max-width: 600px) {
+    .box {
+        height: 250px;
+        aspect-ratio: 1.618 / 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
