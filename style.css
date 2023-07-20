@@ -66,6 +66,10 @@ button {
 #hannahyockel:hover {
     background-color: rgba(100,77,237,0.16);
 }
+.toggle-all {
+    height: 40px;
+    width: 40px;
+}
 
 
 @media screen and (max-width: 600px) {
