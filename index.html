@@ -6,47 +6,19 @@
     <title>Document</title>
     
     <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
 </head>
 <body>
     <nav>
         <header>
-            <div class="title-div">
-                <h1 id="coder-colors"><span id="logo">&lt;/&gt;</span>&nbsp;&nbsp;Coder Colors</h1>
-            </div>
-            <div class="nav-buttons">
-                <button id="contact" class="nav-button">Contact</button>
-                <button id="help" class="nav-button">Help</button>
-                <button id="projects" class="nav-button">Projects</button>
-                <button id="about" class="nav-button" onclick="window.open('https://codingcubed.github.io/')">About</button>
-                <button id="settings" class="nav-button">
-                    <i class="fa-solid fa-gear"></i>
-                </button>
+            <div class="title">
+                <h1 id="logo">&lt;/&gt;</h1>
+                <h2 id="title">Coder Colors</h2>
             </div>
         </header>
     </nav>
-    <div class="settings-menu">
-        <div class="settings-section" id="settings-title">
-            <p class="settings-section-text" id="settings-title-text">Settings</p>
-        </div>
-        <div class="settings-section">
-            <p class="settings-section-text">Website Mode</p>
-            <div class="settings-section-buttons">
-                <button id="light-mode" class="settings-section-button">Light</button>
-                <button id="dark-mode" class="settings-section-button">Dark</button>
-            </div>
-        </div>
-        <div class="settings-section">
-            <p class="settings-section-text">Accent Color</p>
-            <div class="settings-section-buttons">
-                <button id="accent-red" class="settings-section-button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-                <button id="accent-orange" class="settings-section-button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-                <button id="accent-green" class="settings-section-button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-                <button id="accent-blue" class="settings-section-button">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
-            </div>
-        </div>
+    <div class="mobile">
+        <h1 id="mobile-user-detected">Mobile User Detected</h1>
     </div>
-
-    <script src="https://kit.fontawesome.com/4931b3c0b5.js" crossorigin="anonymous"></script>
-    <script defer src="app.js"></script>
 </body>
 </html>
